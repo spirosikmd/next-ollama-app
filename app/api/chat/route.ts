@@ -17,10 +17,10 @@ export async function POST(req: NextRequest) {
   const stream = await model
     .pipe(parser)
     .stream(
-      (messages as Message[]).map((m) =>
-        m.role == 'user'
-          ? new HumanMessage(m.content)
-          : new AIMessage(m.content)
+      (messages as Message[]).map((message) =>
+        message.role == 'user'
+          ? new HumanMessage(message.content)
+          : new AIMessage(message.content)
       )
     );
 
