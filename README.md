@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Langchain](https://js.langchain.com/v0.2/docs/introduction/) to implement an LLM-powered chatbot with the `llama3.1` model download from [Ollama](https://ollama.com).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Langchain](https://js.langchain.com/v0.2/docs/introduction/) to implement an LLM-powered chatbot with the `llama3.1` model downloaded from [Ollama](https://ollama.com).
 
 ## Getting Started
 
